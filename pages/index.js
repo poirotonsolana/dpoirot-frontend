@@ -11,6 +11,12 @@ export default function Home() {
         objectFit="cover"
         quality={100} // adjust quality as needed
       />
+
+      <div className={styles.buttonsContainer}>
+        <button className={styles.button}>Enter APP</button>
+        <button className={styles.button}>Request an AUDIT</button>
+        <button className={styles.button}>Read DOCS</button>
+      </div>
     </div>
   );
 }
