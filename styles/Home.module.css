@@ -8,10 +8,27 @@
 
 .buttonsContainer {
   position: absolute;
-  top: 70%; /* Adjusted to 3/4 of the height */
+  top: 70%;
   left: 50%;
-  transform: translateX(-50%);}
+  transform: translateX(-50%);
+}
 
 .button {
-  margin: 5px;
+  margin: 10px; /* Increased margin for more spacing */
+  padding: 20px 40px; /* Increased padding for larger buttons */
+  background-color: #7DF9FF; /* Background color */
+  color: #00008B; /* Text color */
+  /*border: none; /* Remove border */
+  border-radius: 8px; /* Add some border radius for a smoother look */
+  font-size: 19px; /* Increased font size for better readability */
+  font-family: Arial, sans-serif; /* Prettier font */
+  cursor: pointer; /* Change cursor to pointer on hover */
+  transition: all 0.3s ease; /* Smooth transition effect */
+  font-weight: bold; /* Bold text */
+  font-style: italic; /* Italic text */
+}
+
+.button:hover {
+  background-color: dodgerblue; /* Darker background color on hover */
+  color: white; /* White text color on hover */
 }
