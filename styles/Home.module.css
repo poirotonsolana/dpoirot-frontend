@@ -13,19 +13,23 @@
   transform: translateX(-50%);
 }
 
+@font-face {
+  font-family: 'Instrument';
+  src: url('./fonts/InstrumentSans_Condensed-BoldItalic.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .button {
   margin: 10px; /* Increased margin for more spacing */
   padding: 20px 40px; /* Increased padding for larger buttons */
   background-color: #7DF9FF; /* Background color */
-  color: #00008B; /* Text color */
   /*border: none; /* Remove border */
   border-radius: 8px; /* Add some border radius for a smoother look */
-  font-size: 19px; /* Increased font size for better readability */
-  font-family: Arial, sans-serif; /* Prettier font */
+  font-size: 24px; /* Increased font size for better readability */
+  font-family: "Instrument", sans-serif; /* Use custom font */
   cursor: pointer; /* Change cursor to pointer on hover */
   transition: all 0.3s ease; /* Smooth transition effect */
-  font-weight: bold; /* Bold text */
-  font-style: italic; /* Italic text */
 }
 
 .button:hover {
