@@ -31,7 +31,12 @@ export default function Home() {
       <div className={styles.buttonsContainer}>
         <button onClick={handleEnterAppClick} className={styles.button}>Enter APP</button>
         <button onClick={handleEmailSubmit} className={styles.button}>Request an AUDIT</button>
-        <button className={styles.button}>Read DOCS</button>
+        <button
+          className={styles.button}
+          onClick={() => window.open('https://docs.thepoirot.xyz', '_blank')}
+        >
+          Read DOCS
+        </button>
       </div>
 
       <ComingSoonModal isOpen={isModalOpen} onClose={closeModal} />
