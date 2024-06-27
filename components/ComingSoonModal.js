@@ -8,7 +8,7 @@ const ComingSoonModal = ({ isOpen, onClose }) => {
     <div className={styles.modalOverlay}>
       <div className={styles.modalContent}>
         <h2>Coming Soon</h2>
-        <p>App will launch on 01/07/2024. Stay tuned!</p>
+        <p>App will launch on 15/07/2024. Stay tuned!</p>
         <button onClick={onClose} className={styles.closeButton}>Close</button>
       </div>
     </div>
