@@ -6,10 +6,6 @@ import ComingSoonModal from '../components/ComingSoonModal';
 export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false);
 
-  const handleEnterAppClick = () => {
-    setModalOpen(true);
-  };
-
   const handleEmailSubmit = () => {
     window.location.href = 'mailto:poirotonsolana@gmail.com?subject=Request%20for%20Audit&body=Hi%20there,%0D%0A%0D%0AI%20would%20like%20to%20request%20an%20audit%20for%20my%20project.%0D%0A%0D%0AThank%20you.';
   };
@@ -29,7 +25,7 @@ export default function Home() {
       />
 
       <div className={styles.buttonsContainer}>
-        <button onClick={handleEnterAppClick} className={styles.button}>Enter APP</button>
+        <button onClick={() => window.open('https://beta.thepoirot.xyz', '_blank')} className={styles.button}>Enter APP</button>
         <button onClick={handleEmailSubmit} className={styles.button}>Request an AUDIT</button>
         <button
           className={styles.button}
