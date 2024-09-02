@@ -7,7 +7,7 @@ export default function Home() {
   const [isModalOpen, setModalOpen] = useState(false);
 
   const handleEmailSubmit = () => {
-    window.location.href = 'mailto:poirotonsolana@gmail.com?subject=Request%20for%20Audit&body=Hi%20there,%0D%0A%0D%0AI%20would%20like%20to%20request%20an%20audit%20for%20my%20project.%0D%0A%0D%0AThank%20you.';
+    window.location.href = 'mailto:info@thepoirot.xyz?subject=Request%20for%20Audit&body=Hi%20there,%0D%0A%0D%0AI%20would%20like%20to%20request%20an%20audit%20for%20my%20project.%0D%0A%0D%0AThank%20you.';
   };
 
   const closeModal = () => {
